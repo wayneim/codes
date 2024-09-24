@@ -7,9 +7,12 @@ python train.py --dataset Synapse --root_path ./data/Synapse --max_epochs 150 --
 ```
 
 - Test 
-
+# 存结果
 ```bash
 python test.py --dataset Synapse --is_saveni --root_path ./data/Synapse --max_epoch 150 --output_dir ./output --img_size 224 --base_lr 0.05 --batch_size 24
 ```
 
+# 不存结果
+```bash
 python test.py --dataset Synapse --root_path ./data/Synapse --max_epoch 150 --output_dir ./output --img_size 224 --base_lr 0.05 --batch_size 24
+```
