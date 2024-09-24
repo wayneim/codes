@@ -1,5 +1,25 @@
 # codes
-# 运行
+## enviroment
+```
+python = 3.10
+cuda = 11.8
+torch = 2.0.1 + cu118
+torchvision = 2.0.2 + cu118
+numpy
+tqdm
+tensorboard
+tensorboardX
+ml-collections
+medpy
+SimpleITK
+scipy
+h5py
+timm
+einops
+natten = 0.17.1+torch200cu118 //未使用
+```
+
+## 运行
 - Train
 
 ```bash
